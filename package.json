@@ -1,0 +1,26 @@
+{
+  "name": "read-apk-info-action",
+  "version": "1.0",
+  "description": "This GitHub Actions gets information of Android apk file.",
+  "main": "main.js",
+  "author": "QueallyTech <>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QueallyTech/get-apk-info-action.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QueallyTech/get-apk-info-action/issues"
+  },
+  "homepage": "https://github.com/QueallyTech/get-apk-info-action#readme",
+  "scripts": {
+    "local": "NODE_ENV=local node main.js",
+    "package": "ncc build main.js -o dist"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "app-info-parser": "^1.1.4"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3"
+  }
+}

@@ -1,0 +1,23 @@
+name: 'Read Apk Info'
+description: 'Get apk information,different compilation and build parameters, resulting in different apk version information'
+author: 'QueallyTech'
+branding:
+  icon: info
+  color: gray-dark
+inputs:
+  apkPath:
+    description: 'apk path'
+    required: true
+    default: 'app/build/outputs/apk/release/app-release.apk'
+outputs:
+  versionCode:
+    description: 'apk versionCode'
+  versionNum:
+    description: 'apk versionNum'
+  applicationId:
+    description: 'apk applicationId'
+  name:
+    description: 'apk name'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
