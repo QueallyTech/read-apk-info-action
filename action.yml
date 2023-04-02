@@ -1,4 +1,4 @@
-name: 'Read Apk Info'
+name: 'Read Apk Info Action'
 description: 'Get apk information,different compilation and build parameters, resulting in different apk version information'
 author: 'QueallyTech'
 branding:

@@ -1,4 +1,4 @@
-# Read Apk Info
+# Read Apk Info Action
 
 Get apk information,different compilation and build parameters, resulting in different apk version information
 
